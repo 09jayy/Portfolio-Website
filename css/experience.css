@@ -1,0 +1,41 @@
+@import "header.css";
+@import "page-header.css"; 
+
+section{
+    grid-column: 2 / span 3;
+    grid-row: auto;
+    
+    display: flex; 
+    flex-direction: column;
+}
+
+.experience-card{
+    background-color: red;
+    margin: 2rem; 
+}
+
+.header-card{
+    display: flex; 
+    flex-direction: row;
+}
+
+.experience-card h1{
+
+    font-size: 2rem;
+}
+
+.experience-card h2{
+    flex-grow: 1;
+
+    font-size: 1.2rem; 
+}
+
+.experience-card h3{
+
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.subtitle{
+    font-size: 1.5rem; 
+}
