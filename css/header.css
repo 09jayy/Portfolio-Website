@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: black;
+    background-color: rgb(32, 32, 32); 
     color: white; 
     font-family: "Roboto";
 }
@@ -12,9 +12,10 @@ body{
     margin-top: 4rem;
     padding:0; 
     display: grid; 
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
     grid-template-rows: auto; 
     gap: 1rem; 
+    background-color: black;
 }
 
 /* HEADER */ 
@@ -36,11 +37,13 @@ header{
     left: 0;
     right: 0;
     top: 0;
+    user-select: none;
 }
 
 #logo{
     font-family: "Montserrat";
     font-weight: 700;
+    text-wrap: nowrap;
 }
 
 header ul{
@@ -54,6 +57,9 @@ header ul{
 nav a{
     font-family: "Rubik", sans-serif;
     padding: 0.2rem;  
+    border-radius: 1rem;
+    
+    transition: color 0.3s, background-color 0.3s; 
 }
 
 nav a:link {
@@ -63,8 +69,8 @@ nav a:link {
 
 nav a:hover{
     background-color: #1f27c2;
-    border-radius: 1rem;
     color: grey; 
+    transition: color 0.3s, background-color 0.3s; 
 }
 
 nav a:visited{
@@ -82,8 +88,12 @@ header li{
     background-color: white;
     border-radius: 0.5rem;
     padding: 0.2rem; 
+
+    transition: background-color 0.3s; 
 }
 
 #login:hover{
     background-color: grey;
+
+    transition: background-color 0.3s; 
 }

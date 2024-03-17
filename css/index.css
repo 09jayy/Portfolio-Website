@@ -1,4 +1,5 @@
 @import "header.css"; 
+@import "footer.css"; 
 
 /* HERO */ 
 #hero{
@@ -24,15 +25,18 @@
     display: flex; 
     flex-direction: column;
     overflow: hidden; 
-    white-space: nowrap;
+    white-space: nowrap; 
 }
 
 #hero-text h1{
-    font-family: "Kanit";
-    font-size: 4.2rem;
+    font-family: "Kanit"; 
     display: flex; 
     justify-content: center;
     align-items: center;
+}
+
+#hero-prefix{
+    font-size: 3.5vw; 
 }
 
 #hero-text h1 > *{
@@ -43,11 +47,11 @@
 #hero-name{
     font-family: "Montserrat",sans-serif;
     margin: 0.2rem; 
-    font-size: 10rem; 
+    font-size: 13vw;  
 }
 
 #subtitle{
-    font-size: 2.2rem; 
+    font-size: 2.2vw; 
     font-family: "Kode Mono"; 
 }
 
@@ -57,15 +61,17 @@
     padding: 0.2rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;  
-    font-size: 1.5rem;
+    font-size: 2vw;
     color: black; 
     background-color: white; 
     border-radius: 0.5rem;
+    transition: background-color 0.3s; 
 }
 
 #read-more:hover{
     background-color: grey;
     border-radius: 0.5rem;
+    transition: 0.3s;
 }
 
 /* GENERAL SECTION TAGS */ 
@@ -100,6 +106,7 @@ section > h1{
     position: relative; 
     min-width: 30%; 
     height: min-content; 
+    text-align: center;
 }
 
 #about-me figure img{
@@ -118,10 +125,17 @@ section > h1{
     font-style: italic;
 }
 
+#about-me aside{
+    min-width: 200px; 
+    width: 100%; 
+    height: auto; 
+    flex-grow: 1;
+}
+
 #about-me p::after{
-    content: "\A"; 
+    content: "\A";
     display: block; 
-    white-space: pre; 
+    white-space: pre;
 }
 
 /* EXPLORE */
@@ -145,14 +159,10 @@ section > h1{
     align-items: center;
 }
 
-.content{
-    display: absolute; 
-    bottom: 0; 
-}
-
 .explore-card:hover{
-    color: red;
-    transition: color 0.3s; 
+    color: rgb(156, 156, 156); 
+    border-color: rgb(156, 156, 156); 
+    transition: color 0.5s, border-color 0.5s; 
 }
 
 #explore-container{ 
@@ -177,89 +187,7 @@ section > h1{
     height: 6rem; 
     margin: 0.5rem;
     font-size: 1.5rem;  
-}
 
-/* EXPLORE CARDS */
-/* #skills-card{
-    border-color: #9c2327;
-}
-
-#experience-card{
-    border-color: #000099;
-}
-
-#education-card{
-    border-color: #3e6629;
-}
-
-#projects-card{
-    border-color: #613d5e;
-}
-
-#blog-card{
-    border-color: #933815;
-} */
-
-/* FOOTER */ 
-footer{
-    grid-row: auto; 
-    grid-column: 1 / -1;
-    background-color: rgb(36, 36, 36);
-    display: grid; 
-    grid-template-columns: 1fr 1fr;
-    grid-row: 1fr;
-    gap: 1rem; 
-    padding-top: 5rem;
-    padding-bottom: 5rem; 
-    padding-left: 2rem; 
-}
-
-footer h1{
-    text-align: center;
-    padding: 1rem; 
-}
-
-#socials{
-    grid-column: 1;
-}
-
-#contact{
-    grid-column: 2; 
-}
-
-footer ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    gap: 0.5rem; 
-}
-
-footer article li {
-    display: grid; 
-    grid-template-columns: 10% auto;
-    grid-template-rows: auto; 
-    gap: 1rem; 
-}
-
-footer article li a {
-    display: contents;
-}
-
-footer li img {
-    grid-column: 1;
-    width: auto;  
-    height: auto; 
-    max-width: 100%; 
-    min-width: 80%;
-}
-
-footer li p {
-    grid-column: 2;
-    display: flex; 
-    align-items: center;
-}
-
-footer li a{
-    color: white; 
+    transition: color 0.5s, border-color 0.5s; 
 }
 
