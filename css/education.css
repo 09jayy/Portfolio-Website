@@ -23,7 +23,7 @@ section{
     height: 100%; 
 }
 
-article{
+.school{
     margin: 0.2rem; 
     background-color: transparent;
     display: grid; 

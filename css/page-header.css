@@ -19,6 +19,7 @@
 
     font-family: "Kanit";
     font-weight: bold;
-    font-size: calc(1vw + 4rem);
+    font-size: 5vw; 
     letter-spacing: 1.5rem;
+    padding-left: 1.5rem;
 }
