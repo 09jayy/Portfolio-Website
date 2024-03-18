@@ -1,0 +1,5 @@
+@media only screen and (max-width: 768px){
+    #page-header{
+        grid-template-columns: 1 / -1;
+    }
+}

@@ -1,0 +1,61 @@
+@import "header.css";
+@import "page-header.css"; 
+@import "footer.css"; 
+
+section{
+    grid-column: 2 / span 3;
+    grid-row: auto;
+    
+    display: flex; 
+    flex-direction: column;
+}
+
+.experience-card{
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 1rem; 
+    padding: 1rem; 
+    padding-bottom: 2rem;
+
+    border: 0.2rem solid white;
+    border-radius: 1rem;  
+    transition: 0.7s ease-out; 
+}
+
+.header-card{
+    display: flex; 
+    flex-direction: row;
+}
+
+.experience-card > *{
+    margin: 0.7rem; 
+}
+
+.experience-card h1{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.experience-card h2{
+    flex-grow: 1;
+
+    color: rgb(184, 184, 184); 
+    font-size: 1.2rem; 
+}
+
+.experience-card h3{
+
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(184, 184, 184); 
+}
+
+.subtitle{
+    font-size: 1.5rem; 
+}
+
+.experience-card:hover{
+    transform:scale(1.1); 
+    margin: 2rem;
+    transition: transform 0.5s ease, margin 0.5s ease; 
+}
