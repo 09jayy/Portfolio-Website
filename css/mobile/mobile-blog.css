@@ -9,4 +9,8 @@
         grid-column: 2;
         grid-template-columns: 1fr;
     }
+
+    .blog-head{
+        flex-direction: column;
+    }
 }

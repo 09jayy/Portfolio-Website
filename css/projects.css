@@ -61,13 +61,14 @@
     flex-direction: column;
 
     transition: 0.3s; 
-    user-select: none;
+    user-select: none; 
 
     padding: 2rem 1.5rem 1.5rem 1.5rem; 
 }
 
 .content:hover{
     opacity: 1; 
+    user-select: auto;
     transition: opacity 0.5s;
 }
 
@@ -77,7 +78,7 @@
 
 .desc{
     flex-grow: 1; 
-    overflow: hidden; 
+    overflow: hidden;  
     text-overflow: ellipsis;
 }
 

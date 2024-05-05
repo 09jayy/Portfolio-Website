@@ -12,23 +12,157 @@ section article{
     border: 0.2rem solid white; 
     border-radius: 1rem;
     padding: 1rem; 
-    margin: 1rem; 
+    margin: 0.5rem; 
 }
 
+/* BLOG CONTROLS */ 
+#blog-controls{
+    text-align: center;
+    position: relative; 
+    font-size: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+#add-post{
+    position: absolute; 
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    color: white;
+    text-decoration: none; 
+}
+
+#select-month{
+    position: relative; 
+}
+
+#add-post:hover{
+    color: rgb(167, 167, 167); 
+}
+
+#blog-controls input[type='submit']{
+    font-size: inherit; 
+    background-color: transparent; 
+    color: white; 
+    border: 0.1rem solid white; 
+    padding: 0.2rem; 
+    border-radius: 0.5rem; 
+    margin: 0; 
+}
+
+#blog-controls input[type='submit']:hover{
+    background-color: white;
+    color: black; 
+}
+
+#blog-controls input[type='month']{
+    background-color: white;
+    color: black; 
+    border: 0; 
+    text-align: center;
+}
+
+/* POST HEADER */
 .blog-head{
     display: flex; 
 }
 
-article h1{
+.blog-head h1{
     font-size: 2rem; 
     flex-grow: 1; 
+    font-weight:800; 
 }
 
-article h2{
+.blog-head h2{
     font-size: 1rem;  
     font-style: italic;
+    font-weight: 300;
 }
 
+/* COMMENT HEADER */ 
+.comment-head h1{
+    font-size: 1rem;
+    font-weight: 400; 
+}
+
+.comment-head h2{
+    font-size: 0.8rem; 
+}
+
+/* COMMENT SECTION */
+.comment-box{
+    border: none; 
+    margin: 0; 
+}
+
+.open-comment{
+    background-color: transparent;
+    color: rgb(179, 179, 179);  
+    border: 0; 
+    font-size: 0.8rem;
+    padding: 0.3rem; 
+    border-radius: 0.5rem; 
+    display: block; 
+}
+
+button:hover, input[type="submit"]:hover{
+    cursor: pointer; 
+}
+
+.comment-form{
+    display: none; 
+    margin: 0 1rem 0 1rem; 
+}
+
+.comment-form textarea{
+    width: 100%; 
+    min-height: 1rem; 
+    overflow: hidden; 
+    resize: none;  
+    background-color: transparent;
+    color: white; 
+    font-family: "Roboto", sans-serif;
+}
+
+.post-comment-btn{
+    background-color: transparent;
+    color: rgb(84, 126, 204); 
+    border-radius: 0.5rem; 
+    border: 0; 
+    padding: 0.3rem; 
+    margin: 0.3rem; 
+}
+
+.write-comment-footer{
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.chr-count{
+    font-size: 0.8rem; 
+}
+
+/* ALL POSTS */ 
 .content{
-    margin-top: 1rem; 
+    margin-top: 0.5rem; 
+}
+
+.reply-delete-post{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-btn{
+    float: right; 
+    margin: 0; 
+    color: rgb(124, 0, 0);
+    border-radius: 0.5rem; 
+    background-color: transparent; 
+    border: 0; 
+    padding: 0.3rem; 
+}
+
+input[type="submit"]:hover, button:hover{
+    filter: brightness(160%); 
 }
