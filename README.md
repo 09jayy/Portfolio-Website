@@ -33,7 +33,7 @@ Users can either be of an _admin_ or _user_ status indicated by the Boolean admi
 
 <img src="READMEimages/blog-user-view.png" alt="viewBlog.php page when regular user is logged in" style="width: 40vw">
 <img src="READMEimages/blog-admin-view.png" alt="viewBlog.php page when admin user is logged in" style="width: 40vw"><br>
-Left image shows the page when logged in as a regular user, right images shows the page when logged in as an admin.
+First image shows the page when logged in as a regular user, second image shows the page when logged in as an admin.
 
 ### Experience Page
 
