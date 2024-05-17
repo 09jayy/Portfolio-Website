@@ -19,7 +19,7 @@ The purpose of this repository was showcase my programming projects within a web
 
 ## Database Structure
 
-![Database Designer View from localhost/phpmyadmin](READMEimages/database-designer-view.png)
+![Database Designer View from localhost/phpmyadmin](https://github.com/09jayy/09jayy/blob/main/assets/Portfolio-Website/database-designer-view.png?raw=true)
 
 Users can either be of an _admin_ or _user_ status indicated by the Boolean admin field. All users can add comments which are linked to the respective posts via the `post_comments` table. Admins will be able to add and delete blog posts as well as deletion of comments.
 
@@ -27,14 +27,14 @@ Users can either be of an _admin_ or _user_ status indicated by the Boolean admi
 
 ### Index Page
 
-![Screenshot of index.php page which acts as the about page](READMEimages/index-page.png)
+![Screenshot of index.php page which acts as the about page](https://github.com/09jayy/09jayy/blob/main/assets/Portfolio-Website/index-page.png?raw=true)
 
 ### Blog Page
 
-<img src="READMEimages/blog-user-view.png" alt="viewBlog.php page when regular user is logged in" style="width: 40vw">
-<img src="READMEimages/blog-admin-view.png" alt="viewBlog.php page when admin user is logged in" style="width: 40vw"><br>
+<img src="https://github.com/09jayy/09jayy/blob/main/assets/Portfolio-Website/blog-user-view.png?raw=true" alt="viewBlog.php page when regular user is logged in" style="width: 40vw">
+<img src="https://github.com/09jayy/09jayy/blob/main/assets/Portfolio-Website/blog-admin-view.png?raw=true" alt="viewBlog.php page when admin user is logged in" style="width: 40vw"><br>
 First image shows the page when logged in as a regular user, second image shows the page when logged in as an admin.
 
 ### Experience Page
 
-![Screenshot of experience.php](READMEimages/experience-page.png)
+![Screenshot of experience.php](https://github.com/09jayy/09jayy/blob/main/assets/Portfolio-Website/experience-page.png?raw=true)
