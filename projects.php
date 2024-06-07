@@ -89,11 +89,11 @@ include ("php/loginButton.php");
                 <hgroup class="content">
                     <h2>Snake Game</h2>
                     <p class="desc">
-                        Recreation of the classic snake game using C++ and the SFML library.
+                        Recreation of the classic snake game using C++ and the SDL2 library.
                     </p>
 
                     <p class="more">
-                        <a href="https://github.com/Jibril0912/" target="_blank">See More</a>
+                        <a href="https://github.com/09jayy/Snake-Game-SDL2" target="_blank">See More</a>
                     </p>
                 </hgroup>
             </article>
